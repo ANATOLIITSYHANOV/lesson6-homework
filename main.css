@@ -45,7 +45,7 @@ p{
     border-radius: 50%;
 }
 
-li:hover {
+#hover li:hover {
     background-color: rgba(118,117,128,0.1);
     color:   #ec5a62;
 }
