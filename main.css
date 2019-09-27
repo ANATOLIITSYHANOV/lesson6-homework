@@ -2,11 +2,6 @@ body{
     background-color: #f1f1f1;
 } 
 
-div{
-font-family: Arial, sans-serif;
-background-color: #f1f1f1;
-}
-
 ul{
     list-style-type: none;
     padding: 0;
@@ -16,8 +11,7 @@ ul{
 li, p{
     display: inline-block;
     width: 28%;
-    color: #c2c2c2;
-    
+    color: #c2c2c2;   
 }
 
 li{
@@ -29,11 +23,11 @@ li{
 
 span{
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
     position: relative;
-    bottom: 16px;
+    bottom: 18px;
     left: 10px;
-   
 }
 
 p{
@@ -54,18 +48,25 @@ p{
     text-align: left;
     background-color: #f1f1f1;
     padding: 0;
+    text-transform: uppercase;
 }
 
 input{
     color: #c2c2c2;
     display: inline-block;
+    outline:none;
     }
 
 #submit{
     position: absolute;
-    width: 60px;
-    right: 20%;
-    top: 5%;
+    width: 80px;
+    right: 250px;
+    top: 40px;   
+}
+
+#submit:hover{
+    width: 85px; 
+    transition: all .20s ease-in;
 }
 
 #inputtext{
@@ -73,8 +74,13 @@ input{
     width: 60%;
     font-size: 90px;
     font-weight: bold;
-    background-color: #f1f1f1;
-    margin: 0 0 0 10%;
+    background: transparent;
+    margin: 3% 0 0 10%;
     padding: 0 0 0 30px;
     border: none;
+    color:   #ec5a62;
+}
+
+#inputtext::placeholder{
+    color: #c2c2c2;
 }
