@@ -51,17 +51,18 @@ p{
     text-transform: uppercase;
 }
 
+form{
+    display: inline-block;
+}
+
 input{
     color: #c2c2c2;
-    display: inline-block;
     outline:none;
-    }
+}
 
 #submit{
-    position: absolute;
-    width: 80px;
-    right: 250px;
-    top: 40px;   
+    width: 80px;  
+    margin-left: 125px; 
 }
 
 #submit:hover{
